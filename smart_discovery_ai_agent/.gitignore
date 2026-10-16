@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+.venv/
+venv/
+.DS_Store
+~$*.docx
+
+# Web app local database and caches
+discovery.db
+discovery.db-*
+*.db

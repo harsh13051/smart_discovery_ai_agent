@@ -1,0 +1,1139 @@
+{
+  "_note": "SAMPLE DATA for demonstration only. Restaurant names, prices, ratings and features are fictional and were created for this project; any resemblance to real businesses is coincidental. Area names are real Pune/PCMC localities. A null feature value means the information is unknown.",
+  "restaurants": [
+    {
+      "id": "R001",
+      "name": "Tiffin Tales",
+      "area": "Pimpri",
+      "cuisines": [
+        "south_indian"
+      ],
+      "avg_cost_per_person": 180,
+      "rating": 4.3,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "quick_bite",
+        "family"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R002",
+      "name": "Kolhapuri Kitchen Co.",
+      "area": "Pimpri",
+      "cuisines": [
+        "maharashtrian"
+      ],
+      "avg_cost_per_person": 320,
+      "rating": 4.1,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "friends"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": null,
+        "live_music": false,
+        "wheelchair_access": null,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R003",
+      "name": "Dragon Wok Express",
+      "area": "Pimpri",
+      "cuisines": [
+        "chinese"
+      ],
+      "avg_cost_per_person": 260,
+      "rating": 3.8,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "quick_bite",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R004",
+      "name": "Saffron Courtyard",
+      "area": "Pimpri",
+      "cuisines": [
+        "north_indian",
+        "mughlai"
+      ],
+      "avg_cost_per_person": 550,
+      "rating": 4.4,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R005",
+      "name": "Morning Misal House",
+      "area": "Chinchwad",
+      "cuisines": [
+        "maharashtrian",
+        "street_food"
+      ],
+      "avg_cost_per_person": 150,
+      "rating": 4.5,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "quick_bite",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R006",
+      "name": "The Biryani Ledger",
+      "area": "Chinchwad",
+      "cuisines": [
+        "biryani",
+        "mughlai"
+      ],
+      "avg_cost_per_person": 380,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "family"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": null,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R007",
+      "name": "Green Leaf Thali",
+      "area": "Chinchwad",
+      "cuisines": [
+        "gujarati",
+        "north_indian"
+      ],
+      "avg_cost_per_person": 300,
+      "rating": 4.0,
+      "veg_only": true,
+      "vegan_options": false,
+      "jain_options": true,
+      "occasions": [
+        "family"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R008",
+      "name": "Crust & Crumb",
+      "area": "Chinchwad",
+      "cuisines": [
+        "italian",
+        "cafe"
+      ],
+      "avg_cost_per_person": 480,
+      "rating": 4.1,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R009",
+      "name": "Akurdi Dosa Point",
+      "area": "Akurdi",
+      "cuisines": [
+        "south_indian"
+      ],
+      "avg_cost_per_person": 140,
+      "rating": 4.0,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "quick_bite"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R010",
+      "name": "Nigdi Spice Route",
+      "area": "Akurdi",
+      "cuisines": [
+        "north_indian",
+        "chinese"
+      ],
+      "avg_cost_per_person": 350,
+      "rating": 3.7,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "friends"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": null,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R011",
+      "name": "Pavilion Family Diner",
+      "area": "Akurdi",
+      "cuisines": [
+        "north_indian",
+        "continental"
+      ],
+      "avg_cost_per_person": 600,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "family",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R012",
+      "name": "Rooftop Rasoi",
+      "area": "Wakad",
+      "cuisines": [
+        "north_indian"
+      ],
+      "avg_cost_per_person": 650,
+      "rating": 4.3,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "birthday",
+        "family",
+        "date"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R013",
+      "name": "Byte Café",
+      "area": "Wakad",
+      "cuisines": [
+        "cafe",
+        "continental"
+      ],
+      "avg_cost_per_person": 400,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "business",
+        "date",
+        "quick_bite"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R014",
+      "name": "Coastal Tiffin Wakad",
+      "area": "Wakad",
+      "cuisines": [
+        "seafood",
+        "maharashtrian"
+      ],
+      "avg_cost_per_person": 520,
+      "rating": 4.4,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "friends"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": null,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R015",
+      "name": "Noodle Republic",
+      "area": "Wakad",
+      "cuisines": [
+        "pan_asian",
+        "chinese"
+      ],
+      "avg_cost_per_person": 450,
+      "rating": 3.9,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": false,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R016",
+      "name": "Wakad Chaat Corner",
+      "area": "Wakad",
+      "cuisines": [
+        "street_food"
+      ],
+      "avg_cost_per_person": 120,
+      "rating": 3.9,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "quick_bite",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R017",
+      "name": "Tech Park Tiffins",
+      "area": "Hinjewadi",
+      "cuisines": [
+        "south_indian",
+        "north_indian"
+      ],
+      "avg_cost_per_person": 200,
+      "rating": 3.9,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "quick_bite",
+        "business"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R018",
+      "name": "The Boardroom Grill",
+      "area": "Hinjewadi",
+      "cuisines": [
+        "continental",
+        "italian"
+      ],
+      "avg_cost_per_person": 900,
+      "rating": 4.3,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "business",
+        "date"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R019",
+      "name": "Hinjewadi Hops & Bites",
+      "area": "Hinjewadi",
+      "cuisines": [
+        "continental",
+        "pan_asian"
+      ],
+      "avg_cost_per_person": 750,
+      "rating": 4.0,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": false,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R020",
+      "name": "Sushi Lane",
+      "area": "Hinjewadi",
+      "cuisines": [
+        "japanese",
+        "pan_asian"
+      ],
+      "avg_cost_per_person": 1100,
+      "rating": 4.5,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "business"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R021",
+      "name": "Baner Brew Garden",
+      "area": "Baner",
+      "cuisines": [
+        "continental",
+        "italian"
+      ],
+      "avg_cost_per_person": 800,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "birthday",
+        "date"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": false,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R022",
+      "name": "Little Napoli",
+      "area": "Baner",
+      "cuisines": [
+        "italian"
+      ],
+      "avg_cost_per_person": 700,
+      "rating": 4.6,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "family"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": true,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R023",
+      "name": "Annapurna Bhojanalaya",
+      "area": "Baner",
+      "cuisines": [
+        "maharashtrian",
+        "gujarati"
+      ],
+      "avg_cost_per_person": 250,
+      "rating": 4.1,
+      "veg_only": true,
+      "vegan_options": false,
+      "jain_options": true,
+      "occasions": [
+        "family",
+        "quick_bite"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R024",
+      "name": "Taco Theory",
+      "area": "Baner",
+      "cuisines": [
+        "mexican"
+      ],
+      "avg_cost_per_person": 420,
+      "rating": 3.8,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "quick_bite"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R025",
+      "name": "Aundh Garden Café",
+      "area": "Aundh",
+      "cuisines": [
+        "cafe",
+        "continental"
+      ],
+      "avg_cost_per_person": 380,
+      "rating": 4.3,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "business",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R026",
+      "name": "Punjab Da Dhaba",
+      "area": "Aundh",
+      "cuisines": [
+        "north_indian"
+      ],
+      "avg_cost_per_person": 400,
+      "rating": 4.0,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "friends",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": null,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R027",
+      "name": "Szechuan Story",
+      "area": "Aundh",
+      "cuisines": [
+        "chinese",
+        "pan_asian"
+      ],
+      "avg_cost_per_person": 500,
+      "rating": 4.1,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R028",
+      "name": "FC Road Bun Maska Co.",
+      "area": "Shivajinagar",
+      "cuisines": [
+        "cafe",
+        "street_food"
+      ],
+      "avg_cost_per_person": 160,
+      "rating": 4.4,
+      "veg_only": true,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "quick_bite",
+        "friends"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R029",
+      "name": "Heritage Thali House",
+      "area": "Shivajinagar",
+      "cuisines": [
+        "gujarati",
+        "maharashtrian"
+      ],
+      "avg_cost_per_person": 450,
+      "rating": 4.5,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "family",
+        "birthday",
+        "business"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R030",
+      "name": "Deccan Kebab Works",
+      "area": "Shivajinagar",
+      "cuisines": [
+        "mughlai",
+        "biryani"
+      ],
+      "avg_cost_per_person": 550,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "friends",
+        "family"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R031",
+      "name": "Kothrud Sweet Mart & Snacks",
+      "area": "Kothrud",
+      "cuisines": [
+        "desserts",
+        "street_food"
+      ],
+      "avg_cost_per_person": 130,
+      "rating": 4.1,
+      "veg_only": true,
+      "vegan_options": false,
+      "jain_options": true,
+      "occasions": [
+        "quick_bite",
+        "family"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R032",
+      "name": "Paneer & Pepper",
+      "area": "Kothrud",
+      "cuisines": [
+        "north_indian",
+        "chinese"
+      ],
+      "avg_cost_per_person": 350,
+      "rating": 4.0,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "family",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R033",
+      "name": "Konkan Katta",
+      "area": "Kothrud",
+      "cuisines": [
+        "seafood",
+        "maharashtrian"
+      ],
+      "avg_cost_per_person": 480,
+      "rating": 4.3,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "friends"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": null,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R034",
+      "name": "Camp Irani Café",
+      "area": "Camp",
+      "cuisines": [
+        "cafe",
+        "continental"
+      ],
+      "avg_cost_per_person": 220,
+      "rating": 4.4,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "quick_bite",
+        "friends",
+        "date"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R035",
+      "name": "The Colonial Table",
+      "area": "Camp",
+      "cuisines": [
+        "continental",
+        "italian"
+      ],
+      "avg_cost_per_person": 850,
+      "rating": 4.2,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "business",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": true,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R036",
+      "name": "Mughal Lanterns",
+      "area": "Camp",
+      "cuisines": [
+        "mughlai",
+        "north_indian"
+      ],
+      "avg_cost_per_person": 600,
+      "rating": 4.1,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "birthday"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R037",
+      "name": "Lotus Pan-Asian",
+      "area": "Koregaon Park",
+      "cuisines": [
+        "pan_asian",
+        "japanese"
+      ],
+      "avg_cost_per_person": 1200,
+      "rating": 4.5,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "business",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": true,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R038",
+      "name": "KP Vegan Bowl",
+      "area": "Koregaon Park",
+      "cuisines": [
+        "continental",
+        "cafe"
+      ],
+      "avg_cost_per_person": 550,
+      "rating": 4.3,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "friends",
+        "quick_bite"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R039",
+      "name": "Olive Terrace",
+      "area": "Koregaon Park",
+      "cuisines": [
+        "italian",
+        "continental"
+      ],
+      "avg_cost_per_person": 1000,
+      "rating": 4.4,
+      "veg_only": false,
+      "vegan_options": true,
+      "jain_options": false,
+      "occasions": [
+        "date",
+        "birthday"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": true,
+        "wifi": true,
+        "live_music": true,
+        "wheelchair_access": false,
+        "serves_alcohol": true
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R040",
+      "name": "Airport Road Tandoor",
+      "area": "Viman Nagar",
+      "cuisines": [
+        "north_indian",
+        "mughlai"
+      ],
+      "avg_cost_per_person": 450,
+      "rating": 4.0,
+      "veg_only": false,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "family",
+        "business"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R041",
+      "name": "Viman Nagar Waffle Lab",
+      "area": "Viman Nagar",
+      "cuisines": [
+        "desserts",
+        "cafe"
+      ],
+      "avg_cost_per_person": 250,
+      "rating": 4.2,
+      "veg_only": true,
+      "vegan_options": false,
+      "jain_options": false,
+      "occasions": [
+        "quick_bite",
+        "friends",
+        "date"
+      ],
+      "features": {
+        "parking": false,
+        "outdoor_seating": false,
+        "wifi": true,
+        "live_music": false,
+        "wheelchair_access": false,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    },
+    {
+      "id": "R042",
+      "name": "Udupi Grand",
+      "area": "Viman Nagar",
+      "cuisines": [
+        "south_indian"
+      ],
+      "avg_cost_per_person": 230,
+      "rating": 4.1,
+      "veg_only": true,
+      "vegan_options": true,
+      "jain_options": true,
+      "occasions": [
+        "family",
+        "quick_bite",
+        "business"
+      ],
+      "features": {
+        "parking": true,
+        "outdoor_seating": false,
+        "wifi": false,
+        "live_music": false,
+        "wheelchair_access": true,
+        "serves_alcohol": false
+      },
+      "is_sample": true
+    }
+  ]
+}

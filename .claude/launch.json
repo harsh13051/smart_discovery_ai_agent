@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "table-scout",
+      "runtimeExecutable": "C:/Users/harsh/Downloads/smart_discovery_ai_agent/.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "discovery.asgi:app", "--port", "8000", "--app-dir", "C:/Users/harsh/Downloads/smart_discovery_ai_agent/smart_discovery_ai_agent"],
+      "port": 8000
+    }
+  ]
+}

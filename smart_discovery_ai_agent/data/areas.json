@@ -1,0 +1,112 @@
+{
+  "_note": "Approximate road distances (km) between neighbouring Pune/PCMC areas, simplified for this demo. Not navigation data.",
+  "areas": [
+    "Pimpri",
+    "Chinchwad",
+    "Akurdi",
+    "Wakad",
+    "Hinjewadi",
+    "Baner",
+    "Aundh",
+    "Shivajinagar",
+    "Kothrud",
+    "Camp",
+    "Koregaon Park",
+    "Viman Nagar"
+  ],
+  "aliases": {
+    "hinjawadi": "Hinjewadi",
+    "hinjewadi phase 1": "Hinjewadi",
+    "kp": "Koregaon Park",
+    "koregaon": "Koregaon Park",
+    "pune camp": "Camp",
+    "cantonment": "Camp",
+    "fc road": "Shivajinagar",
+    "jm road": "Shivajinagar",
+    "pimpri colony": "Pimpri",
+    "nigdi": "Akurdi",
+    "viman": "Viman Nagar"
+  },
+  "edges": [
+    [
+      "Pimpri",
+      "Chinchwad",
+      3
+    ],
+    [
+      "Pimpri",
+      "Akurdi",
+      5
+    ],
+    [
+      "Chinchwad",
+      "Akurdi",
+      3
+    ],
+    [
+      "Pimpri",
+      "Wakad",
+      7
+    ],
+    [
+      "Chinchwad",
+      "Wakad",
+      6
+    ],
+    [
+      "Wakad",
+      "Hinjewadi",
+      5
+    ],
+    [
+      "Wakad",
+      "Baner",
+      6
+    ],
+    [
+      "Baner",
+      "Hinjewadi",
+      9
+    ],
+    [
+      "Baner",
+      "Aundh",
+      4
+    ],
+    [
+      "Pimpri",
+      "Aundh",
+      10
+    ],
+    [
+      "Aundh",
+      "Shivajinagar",
+      5
+    ],
+    [
+      "Shivajinagar",
+      "Kothrud",
+      6
+    ],
+    [
+      "Shivajinagar",
+      "Camp",
+      5
+    ],
+    [
+      "Camp",
+      "Koregaon Park",
+      3
+    ],
+    [
+      "Koregaon Park",
+      "Viman Nagar",
+      5
+    ],
+    [
+      "Shivajinagar",
+      "Koregaon Park",
+      6
+    ]
+  ]
+}
